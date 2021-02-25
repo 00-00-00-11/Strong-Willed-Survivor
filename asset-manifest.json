@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Strong-Willed-Survivor/static/css/main.ac71abf3.chunk.css",
-    "main.js": "/Strong-Willed-Survivor/static/js/main.09a162d7.chunk.js",
-    "main.js.map": "/Strong-Willed-Survivor/static/js/main.09a162d7.chunk.js.map",
-    "runtime-main.js": "/Strong-Willed-Survivor/static/js/runtime-main.88c59aa0.js",
-    "runtime-main.js.map": "/Strong-Willed-Survivor/static/js/runtime-main.88c59aa0.js.map",
-    "static/js/2.c8828c2c.chunk.js": "/Strong-Willed-Survivor/static/js/2.c8828c2c.chunk.js",
-    "static/js/2.c8828c2c.chunk.js.map": "/Strong-Willed-Survivor/static/js/2.c8828c2c.chunk.js.map",
-    "static/js/3.3f3a8f27.chunk.js": "/Strong-Willed-Survivor/static/js/3.3f3a8f27.chunk.js",
-    "static/js/3.3f3a8f27.chunk.js.map": "/Strong-Willed-Survivor/static/js/3.3f3a8f27.chunk.js.map",
+    "main.css": "/Strong-Willed-Survivor/static/css/main.6c37a837.chunk.css",
+    "main.js": "/Strong-Willed-Survivor/static/js/main.aeaccbf4.chunk.js",
+    "main.js.map": "/Strong-Willed-Survivor/static/js/main.aeaccbf4.chunk.js.map",
+    "runtime-main.js": "/Strong-Willed-Survivor/static/js/runtime-main.055be1e9.js",
+    "runtime-main.js.map": "/Strong-Willed-Survivor/static/js/runtime-main.055be1e9.js.map",
+    "static/js/2.ffec993d.chunk.js": "/Strong-Willed-Survivor/static/js/2.ffec993d.chunk.js",
+    "static/js/2.ffec993d.chunk.js.map": "/Strong-Willed-Survivor/static/js/2.ffec993d.chunk.js.map",
+    "static/js/3.39e0d2d6.chunk.js": "/Strong-Willed-Survivor/static/js/3.39e0d2d6.chunk.js",
+    "static/js/3.39e0d2d6.chunk.js.map": "/Strong-Willed-Survivor/static/js/3.39e0d2d6.chunk.js.map",
     "index.html": "/Strong-Willed-Survivor/index.html",
-    "static/css/main.ac71abf3.chunk.css.map": "/Strong-Willed-Survivor/static/css/main.ac71abf3.chunk.css.map",
-    "static/js/2.c8828c2c.chunk.js.LICENSE.txt": "/Strong-Willed-Survivor/static/js/2.c8828c2c.chunk.js.LICENSE.txt"
+    "static/css/main.6c37a837.chunk.css.map": "/Strong-Willed-Survivor/static/css/main.6c37a837.chunk.css.map",
+    "static/js/2.ffec993d.chunk.js.LICENSE.txt": "/Strong-Willed-Survivor/static/js/2.ffec993d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.88c59aa0.js",
-    "static/js/2.c8828c2c.chunk.js",
-    "static/css/main.ac71abf3.chunk.css",
-    "static/js/main.09a162d7.chunk.js"
+    "static/js/runtime-main.055be1e9.js",
+    "static/js/2.ffec993d.chunk.js",
+    "static/css/main.6c37a837.chunk.css",
+    "static/js/main.aeaccbf4.chunk.js"
   ]
 }
