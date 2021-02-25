@@ -1,11 +1,11 @@
 import React from "react";
 import "../styles/index.css";
-// import { Link } from "react-router-dom";
+import "../styles/image.css";
 
 function LandingPage() {
 	return (
-		<div className="App">
-			<div className="border-2 border-black bg-pink-500">
+		<div className="App ">
+			<div className="border-2 border-black bg-pink-500 ">
 				<h1 className="text-lg font-semibold">Strong Willed Survivor!</h1>
 			</div>
 			<div>
@@ -15,12 +15,12 @@ function LandingPage() {
 						HISTORY OF STRONG WILLED SURVIVOR{" "}
 					</h2>
 					{/* Cards */}
-					<div className="">
+					<div>
 						<div className="m-4 bg-white rounded overflow-hidden shadow-md">
 							<img
-								className="ml-56 flex-shrink md:flex-shrink-0"
-								src="https://media.giphy.com/media/IvYSp5i8vN9Mucg7xV/giphy.gif"
-								alt="Dancy!"
+								className="ml-56 mt-5 flex-shrink md:flex-shrink-0"
+								src="https://media.giphy.com/media/TfDSv2rgqzdVHTOjSw/giphy.gif"
+								alt="Dancing Bread.!"
 							/>
 							<span className="block">
 								It began with an IDEA...COMPASSION...and LOVE by then
@@ -34,17 +34,26 @@ function LandingPage() {
 								experiencing similar issues.
 							</span>
 						</div>
-						<p className="m-4">
-							After combining Kids FUN Day with some EDUCATION and AWARENESS,
-							the first celebration of LIFE was hosted in September 2015. Which
-							lead to the creation of Strong Willed Survivor, an organization
-							founded by both mother and son with the mission of providing
-							awareness; while uplifting and encouraging all through times of
-							adversity. They believe that no matter what obstacles a person may
-							face if you keep pushing and stayed encouraged; through FAITH,
-							HOPE, LOVE and SUPPORT you can find light at the end of the tunnel
-							(even if it’s only a glimpse).
-						</p>
+						{/* Card */}
+						<div className="m-4 bg-white rounded overflow-hidden shadow-md">
+							<img
+								className="ml-56 mt-5 flex-shrink md:flex-shrink-0 "
+								src="https://media.giphy.com/media/1VXCsZHLa3j4tSDaT4/giphy.gif"
+								alt="Dancy!"
+							/>
+							<span className="m-4 block">
+								After combining Kids FUN Day with some EDUCATION and AWARENESS,
+								the first celebration of LIFE was hosted in September 2015.
+								Which lead to the creation of Strong Willed Survivor, an
+								organization founded by both mother and son with the mission of
+								providing awareness; while uplifting and encouraging all through
+								times of adversity. They believe that no matter what obstacles a
+								person may face if you keep pushing and stayed encouraged;
+								through FAITH, HOPE, LOVE and SUPPORT you can find light at the
+								end of the tunnel (even if it’s only a glimpse).
+							</span>
+						</div>
+
 						<p className="m-4">
 							Through the “Family-Focused” workshops, activities, and programs,
 							Strong Willed Survivor has been able to reach beyond the Hampton
@@ -52,7 +61,6 @@ function LandingPage() {
 							caregivers of all ages and Angel Families.
 						</p>
 					</div>
-
 					<p className="m-4 mt-12 pt-2 ">
 						To request an application for the Strong Willed Survivor Award, the
 						Daisy LaVette-Glover Caregiver’s Award or the Holiday Bundle of
