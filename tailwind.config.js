@@ -205,6 +205,7 @@ module.exports = {
 				'"Courier New"',
 				"monospace",
 			],
+			nun: ["Nunito"],
 		},
 		fontSize: {
 			xs: ["0.75rem", { lineHeight: "1rem" }],
