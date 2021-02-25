@@ -1,6 +1,7 @@
 {
 	"name": "sws",
 	"version": "0.1.0",
+	"homepage": "https://deepwebdevelopers.github.io/Strong-Willed-Survivor/",
 	"private": true,
 	"dependencies": {
 		"@craco/craco": "^6.1.1",
