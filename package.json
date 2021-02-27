@@ -1,6 +1,7 @@
 {
 	"name": "strong-willed-survivor",
 	"version": "0.1.0",
+	"homepage": "beyondthescars.org",
 	"private": true,
 	"dependencies": {
 		"@craco/craco": "^6.1.1",
