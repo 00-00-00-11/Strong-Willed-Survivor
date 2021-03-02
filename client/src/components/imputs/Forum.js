@@ -1,18 +1,18 @@
 import React from "react";
 // import { useState, useEffect } from "react";
-// import Thanos from "../pages/thanos";
+import Thanos from "../pages/thanos";
 
 export default function Forum() {
 	return (
 		<div>
 			<form
-				name="contact-results"
+				name="contact v2"
 				method="post"
 				data-netlify="true"
 				onSubmit="submit"
 				data-netlify-honeypot="bot-field"
 			>
-				<input type="hidden" name="form-name" value="contact-results" />
+				<input type="hidden" name="form-name" value="contact v2" />
 
 				<div hidden>
 					<input name="bot-field" />
@@ -50,6 +50,7 @@ export default function Forum() {
 
 				<button type="submit">Submit The Results</button>
 			</form>
+			<Thanos />
 		</div>
 	);
 }
