@@ -11,7 +11,7 @@ export default function Products() {
 				<h1 className="products">About Us</h1>
 			</div>
 			<div className="about-page-css ">
-				<h2>HISTORY OF STRONG WILLED SURVIVOR </h2>
+				<h1>HISTORY OF STRONG WILLED SURVIVOR </h1>
 				<img className="about_p_images" src={img1} alt="logo"></img>
 				<p>
 					It began with an IDEA...COMPASSION...and LOVE by then twelve-year old
@@ -55,6 +55,22 @@ export default function Products() {
 					area of Virginia and aid children, teens, survivors, caregivers of all
 					ages and Angel Families.
 				</p>
+				<p2>
+					SWS has hosted (3) Annual Celebration of LIFE with four main goals in
+					mind.
+					<br></br>
+					<br></br>
+					<li>
+						EDUCATE – the community on the affects cancer has on the entire
+						family
+					</li>
+					<li>
+						HONOR/RECOGNIZE – the Support TEAM (children, teens, and adults){" "}
+					</li>
+					<li>CELEBRATE the LIFE of the SURVIVOR </li>
+					<li>REMEMBER the LEGACY of our Angels </li>
+					<br></br>
+				</p2>
 			</div>
 		</div>
 	);

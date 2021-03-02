@@ -125,11 +125,11 @@
 	align-items: center;
 	color: teal;
 }
-.about-page-css h1,
-h2,
-h3 {
-	margin-top: 15px;
-	font-size: 23px;
+.about-page-css h1 {
+	background-size: 1px;
+	background-image: url(https://media.giphy.com/media/xUPGcfG7LQs4a7rIsM/giphy-downsized.gif);
+	margin-top: 75px;
+	font-size: 25px;
 	color: rebeccapurple;
 }
 

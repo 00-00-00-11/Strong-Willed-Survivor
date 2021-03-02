@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-// import { Button } frosm "./Button";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import Dropdown from "./Dropdown";
+import Dropdown from "../NavBar/Dropdown";
 
 function Navbar() {
 	const [click, setClick] = useState(false);
@@ -32,8 +31,9 @@ function Navbar() {
 			<nav className="navbar">
 				<Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
 					Strong Willed Survivor
-					<i className="fab fa-firstdraft" />
+					<i class="fab fa-firstdraft" />
 				</Link>
+
 				<div className="menu-icon" onClick={handleClick}>
 					<i className={click ? "fas fa-times" : "fas fa-bars"} />
 				</div>
@@ -67,7 +67,7 @@ function Navbar() {
 						</Link>
 					</li>
 					<li className="nav-item">
-						<Link to="/Kidz" className="nav-links" onClick={closeMobileMenu}>
+						<Link to="/kidz" className="nav-links" onClick={closeMobileMenu}>
 							Kidz
 						</Link>
 					</li>
