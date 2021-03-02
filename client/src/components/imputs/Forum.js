@@ -1,36 +1,54 @@
 import React from "react";
+// import { useState, useEffect } from "react";
+// import Thanos from "../pages/thanos";
 
 export default function Forum() {
 	return (
 		<div>
-			<form name="contact" method="POST" data-netlify="true">
-				<p>
+			<form
+				name="contact-results"
+				method="post"
+				data-netlify="true"
+				onSubmit="submit"
+				data-netlify-honeypot="bot-field"
+			>
+				<input type="hidden" name="form-name" value="contact-results" />
+
+				<div hidden>
+					<input name="bot-field" />
+				</div>
+
+				<div>
 					<label>
-						Your Name: <input type="text" name="name" />
+						First name
+						<br />
+						<input type="text" name="first-name" />
 					</label>
-				</p>
-				<p>
+				</div>
+
+				<div>
 					<label>
-						Your Email: <input type="email" name="email" />
+						Last name
+						<br />
+						<input type="text" name="last-name" />
 					</label>
-				</p>
-				<p>
+				</div>
+
+				<div>
+					<label htmlFor="email">Email</label>
+					<br />
+					<input id="email" type="email" name="email" />
+				</div>
+
+				<div>
 					<label>
-						Your Role:{" "}
-						<select name="role[]" multiple>
-							<option value="leader">Leader</option>
-							<option value="follower">Follower</option>
-						</select>
+						Any Comments?
+						<br />
+						<textarea name="comments"></textarea>
 					</label>
-				</p>
-				<p>
-					<label>
-						Message: <textarea name="message"></textarea>
-					</label>
-				</p>
-				<p>
-					<button type="submit">Send</button>
-				</p>
+				</div>
+
+				<button type="submit">Submit The Results</button>
 			</form>
 		</div>
 	);

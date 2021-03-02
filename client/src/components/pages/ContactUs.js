@@ -6,7 +6,9 @@ export default function ContactUs() {
 	return (
 		<div>
 			<h1 className="contact-us">CONTACT</h1>
-			<Forum />
+			<div>
+				<Forum />
+			</div>
 		</div>
 	);
 }

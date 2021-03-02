@@ -90,3 +90,12 @@
 	color: #fff;
 	font-size: 100px;
 }
+
+/* 404 page css */
+.not_found-err {
+	display: flex;
+	justify-content: center;
+	font-size: 30px;
+	position: relative;
+	min-height: 75vh;
+}
