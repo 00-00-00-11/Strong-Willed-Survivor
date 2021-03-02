@@ -2,5 +2,18 @@
   "name": "netlify",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "https://github.com/DeepWebDevelopers/Strong-Willed-Survivor.git",
+  "author": "Jamal L <jamallyons8@gmail.com>",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.4"
+  }
 }
