@@ -167,6 +167,7 @@
 	background: linear-gradient(79deg, #9e31c4 0%, #64b5e3 80%);
 	background: -webkit-linear-gradient(79deg, #9e31c4 0%, #64b5e3 80%);
 	background: -moz-linear-gradient(79deg, #9e31c4 0%, #64b5e3 80%);
+	margin: 16px;
 }
 
 .about_p_images {
