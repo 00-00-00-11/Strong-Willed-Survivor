@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button } from "./Button";
+// import { Button } frosm "./Button";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import Dropdown from "./Dropdown";
@@ -67,6 +67,11 @@ function Navbar() {
 						</Link>
 					</li>
 					<li className="nav-item">
+						<Link to="/Kidz" className="nav-links" onClick={closeMobileMenu}>
+							Kidz
+						</Link>
+					</li>
+					<li className="nav-item">
 						<Link
 							to="/contact-us"
 							className="nav-links"
@@ -85,7 +90,6 @@ function Navbar() {
 						</Link>
 					</li>
 				</ul>
-				<Button />
 			</nav>
 		</>
 	);

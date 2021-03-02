@@ -1,6 +1,5 @@
 import React from "react";
-import "../../App.css";
-import Hero from "../b-nav/HeroSection";
+import Hero from "../components/b-nav/HeroSection";
 // import Cards from "../Cards";
 
 export default function Home() {
@@ -10,6 +9,7 @@ export default function Home() {
 				<Hero />
 				{/* <Cards /> */}
 			</div>
+			hidden
 		</>
 	);
 }

@@ -4,8 +4,13 @@ import { Link } from "react-router-dom";
 
 export function Button() {
 	return (
-		<Link to="sign-up">
-			<button className="btn">Sign Up</button>
-		</Link>
+		<div>
+			<Link to="sign-up">
+				<button className="btn">Sign Up</button>
+			</Link>
+			<Link to="our-story">
+				<button className="btn2">About Us</button>
+			</Link>
+		</div>
 	);
 }
