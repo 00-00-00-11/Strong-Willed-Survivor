@@ -1,8 +1,8 @@
 import React from "react";
-import "../App.css";
-import { Button } from "./Button";
+import "../../App.css";
+import { Button } from "../NavBar/Button";
 import "./HeroSection.css";
-import Video from "../videos/video-2.mp4";
+import Video from "../../videos/video-2.mp4";
 
 function HeroSection() {
 	return (
