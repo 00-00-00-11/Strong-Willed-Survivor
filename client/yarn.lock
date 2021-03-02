@@ -9410,6 +9410,11 @@ react-scripts@3.4.1:
   optionalDependencies:
     fsevents "2.1.2"
 
+react-use-netlify-form@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/react-use-netlify-form/-/react-use-netlify-form-0.1.0.tgz#1eed38e8c7817c5d74ff154e34ac411377d0f6b3"
+  integrity sha512-WcK+C01PV6lI9iOOHgQ7FSNxRdz9YZAO+zdXcCZJnHWcjl390h95NKdg+tTSsmXF2zFSGCKaieZc57kcRZlhxw==
+
 react@^16.13.1:
   version "16.14.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.14.0.tgz#94d776ddd0aaa37da3eda8fc5b6b18a4c9a3114d"
