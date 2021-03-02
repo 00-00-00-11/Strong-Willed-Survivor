@@ -1,6 +1,9 @@
 import React from "react";
 import img1 from "../images/main/IMG_8599.jpg";
+// import video from "../videos/video-1.mp4";
 import "../App.css";
+import ReactPlayer from "react-player"; // Render a YouTube video player
+
 export default function Products() {
 	return (
 		<div>
@@ -20,17 +23,38 @@ export default function Products() {
 					not only himself, but other kids and teens experiencing similar
 					issues.
 				</p>
-
 				<p2>
 					After combining Kids FUN Day with some EDUCATION and AWARENESS, the
-					first Celebration of LIFE was hosted in September 2015. Which lead to
-					the creation of Strong Willed Survivor, an organization founded by
-					both mother and son with the mission of providing awareness; while
+					first situation how one desperately yearns for some sense of normalcy.
+					Through our partnerships with license chefs, caterers, and
+					restaurants, SURVIVOR and Angel Families in Hampton Roads, Virginia
+					and beyond (Gordonsville, Virginia, Elizabethtown, Kentucky,
+					California, South Carolina and Pennsylvania) have received fully
+					cooked holiday meals (with a menu of their choosing) delivered to
+					their homes (or made available for pickup) FREE of charge to enjoy
+					with their immediate family during the holidays.
+				</p2>
+				<ReactPlayer
+					url="https://www.youtube.com/watch?v=ysz5S6PUM-U"
+					controls="true"
+					width="540px"
+					height="325px"
+				/>
+				<p className="bounce">
+					Celebration of LIFE was hosted in September 2015. Which lead to the
+					creation of Strong Willed Survivor, an organization founded by both
+					mother and son with the mission of providing awareness; while
 					uplifting and encouraging all through times of adversity. They believe
 					that no matter what obstacles a person may face if you keep pushing
 					and stayed encouraged; through FAITH, HOPE, LOVE and SUPPORT you can
 					find light at the end of the tunnel (even if it’s only a glimpse).
-				</p2>
+					<br></br>
+					<br></br>
+					Through the “Family-Focused” workshops, activities, and programs,
+					Strong Willed Survivor has been able to reach beyond the Hampton Roads
+					area of Virginia and aid children, teens, survivors, caregivers of all
+					ages and Angel Families.
+				</p>
 			</div>
 		</div>
 	);
