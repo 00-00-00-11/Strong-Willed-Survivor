@@ -1,7 +1,10 @@
-# Thanos JS (demo site)
+# Strong Willed Survivor Non Profit
 
-Silly demo site to be used for [Netlify Drop](https://app.netlify.com/drop).
+## To do List
 
-Preview demo site [right here](https://www.thanosjs.org).
-
-Thanks to [Rasmus Andersson](https://twitter.com/rsms) for creating [Inter UI font](https://rsms.me/inter/).
+- Fix Home page video rendering
+- fix file structure and folders
+- Add more css support
+- add more information about company
+- add a dynamic blog page
+- fill in footer
