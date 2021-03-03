@@ -4,7 +4,7 @@ import Navbar from "./components/NavBar/Navbar";
 import Footer from "./components/b-nav/Footer";
 import Home from "./pages/Home";
 // import Thanos from "./components/pages/thanos";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import Services from "./pages/Services";
 import OurStory from "./pages/OurStory";
 import ContactUs from "./pages/ContactUs";

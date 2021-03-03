@@ -8,3 +8,4 @@
 - add more information about company
 - add a dynamic blog page
 - fill in footer
+- add (sws page, beyond the scares, and kidz link page)
