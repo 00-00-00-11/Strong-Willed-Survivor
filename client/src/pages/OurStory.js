@@ -34,12 +34,16 @@ export default function Products() {
 					their homes (or made available for pickup) FREE of charge to enjoy
 					with their immediate family during the holidays.
 				</p2>
-				<ReactPlayer
-					url="https://www.youtube.com/watch?v=ysz5S6PUM-U"
-					controls="true"
-					width="540px"
-					height="325px"
-				/>
+				<div className="video-rapper">
+					<ReactPlayer
+						className="video-player"
+						url="https://www.youtube.com/watch?v=ysz5S6PUM-U"
+						controls="true"
+						// width="540px"
+						// height="325px"
+					/>
+				</div>
+
 				<p className="bounce">
 					Celebration of LIFE was hosted in September 2015. Which lead to the
 					creation of Strong Willed Survivor, an organization founded by both

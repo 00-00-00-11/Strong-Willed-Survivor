@@ -182,7 +182,25 @@
 
 .video-player {
 	width: 100%;
-	height: 5px;
+	height: auto;
+}
+
+/*  about page for mobile */
+@media screen and (max-width: 960px) {
+	.about-page-css h1 {
+		background-size: 1px;
+		background-image: url(https://media.giphy.com/media/xUPGcfG7LQs4a7rIsM/giphy-downsized.gif);
+		margin-top: 55px;
+		font-size: 25px;
+		color: rgb(121, 73, 168);
+	}
+	.video-rapper {
+		/*? Need to fix later */
+	}
+	.video-player {
+		width: 100% !important;
+		height: auto !important;
+	}
 }
 
 /*? Extra animations  */
