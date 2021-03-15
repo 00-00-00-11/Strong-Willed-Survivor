@@ -54,6 +54,15 @@ function Footer() {
 						>
 							Instagram
 						</a>
+						{/* <a href="http://info.swskidz@gmail.com" target="_blank">
+							Email
+						</a> */}
+						<input
+							type="submit"
+							// class="button"
+							value="Mail US"
+							onclick="window.location.href='http://info.swskidz@gmail.com'"
+						></input>
 
 						<Link to="/">Agency</Link>
 						<Link to="/">Influencer</Link>

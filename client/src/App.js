@@ -13,6 +13,7 @@ import Blog from "./pages/Blog";
 import Consulting from "./pages/Consulting";
 import NF_404 from "./components/misc/NF_404";
 import Kidz from "./pages/Kidz";
+import DontationPage from "./pages/dontate";
 
 function App() {
 	return (
@@ -28,6 +29,7 @@ function App() {
 				{/* <Route path="/thanos" component={Thanos} /> */}
 				<Route exact path="/consulting" component={Consulting} />
 				<Route exact path="/kidz" component={Kidz} />
+				<Route exact path="/donate" component={DontationPage}></Route>
 				<Route path="*" component={NF_404} />
 			</Switch>
 			<Footer />

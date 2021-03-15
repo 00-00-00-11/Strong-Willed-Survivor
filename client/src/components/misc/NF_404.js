@@ -1,14 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./404.css";
 
 export default function NF_404() {
 	return (
 		<div className="not_found-err">
-			<h1>PAGE NOT FOUND!</h1>
+			<h2 className="this2">PAGE NOT FOUND!</h2>
 
-			<p>
-				<Link className="basic-link" to="/">
-					Return to home
+			<p className="this">
+				<Link className="basic-link-this" to="/">
+					<p>Return Home</p>
 				</Link>{" "}
 			</p>
 		</div>

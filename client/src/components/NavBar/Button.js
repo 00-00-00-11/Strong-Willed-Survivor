@@ -8,8 +8,11 @@ export function Button() {
 			<Link to="sign-up">
 				<button className="btn">Sign Up</button>
 			</Link>
+			<Link to="/donate">
+				<button className="btn2">Donate</button>
+			</Link>
 			<Link to="our-story">
-				<button className="btn2">About Us</button>
+				<button className="btn">About Us</button>
 			</Link>
 		</div>
 	);

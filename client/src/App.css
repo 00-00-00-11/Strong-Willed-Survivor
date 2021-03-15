@@ -194,13 +194,59 @@
 		font-size: 25px;
 		color: rgb(121, 73, 168);
 	}
-	.video-rapper {
-		/*? Need to fix later */
-	}
+	/* .video-rapper {
+		for later...
+	} */
 	.video-player {
 		width: 100% !important;
 		height: auto !important;
 	}
+}
+
+/*? Donation page css  */
+
+/* main */
+.donations-page-css {
+	background-color: rgb(228, 228, 228);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	min-height: 65vh;
+	align-items: center;
+	color: teal;
+}
+
+.donations-page-css h1 {
+	margin-top: 35px;
+}
+
+.donations-page-css p {
+	margin-top: 100px;
+	color: rgb(247, 168, 181);
+	margin-top: 35px;
+	display: flex;
+	align-items: center;
+	position: absolute;
+}
+
+.paypal-button {
+	position: relative;
+	bottom: 435px;
+	resize: both;
+	overflow: auto;
+}
+
+.donation-page-img-css {
+	max-width: 60%;
+	height: auto;
+	width: auto;
+	margin: 16px;
+	transform: scale(0.5, 0.5);
+	-ms-transform: scale(0.5, 0.5);
+	-webkit-transform: scale(0.5, 0.5);
+	position: relative;
+	bottom: 400px;
 }
 
 /*? Extra animations  */
